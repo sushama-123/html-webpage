@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>list</title>
+        <style>
+            .box{
+                background-color: rgb(95, 95, 95);
+                padding: 10px;
+                
+            }
+            .rect-angle{
+               background-color: brown;
+                height: 300px;
+                width: 500px;
+                position: relative;
+                top: 200px;
+                left: 200px;
+            }
+            .circle{
+                background-color: blue;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                position: relative;
+                top: 50px;
+                left: 50px;
+
+            }
+                
+            .in-box {
+                position: relative;
+                background-color: rgb(0, 0, 0);
+                padding: 2px;
+               
+                
+            }
+             .inbox {
+                background-color: rgb(136, 24, 24);
+                
+            
+            }
+            li{
+                color:  blue;
+                font-size: 25pt;
+            }
+            .firs-class{
+                color: red;
+            }
+            li[draggable]{
+                color: rgb(2, 80, 28);
+            }
+            #first-id{
+                color: orange;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 3fr;
+                gap: 2px;
+                background-color: rgb(190, 120, 27);
+            }
+        </style>
+        <body>
+            <div class="rect-angle"><div class="circle"></div></div>
+            <div class="container"></div>
+
+              
+          
+        </body>
+    </head>
+</html>
